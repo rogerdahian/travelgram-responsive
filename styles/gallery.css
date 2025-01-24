@@ -1,0 +1,10 @@
+#gallery {
+  background-color: var(--background-color);
+
+  & .gallery-img{
+    & > img{
+      width: 328px;
+      height: 328px;
+    }
+  }
+}

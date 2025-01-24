@@ -1,0 +1,44 @@
+#profile{
+  width: minmax(296px);
+
+  & .div-1 {
+
+   & .profile {
+
+    width: 176px;
+    height: 176px;
+  }
+
+  & h1 + p {
+    padding-top: .5rem;
+  }
+}
+
+  & .div-2 {
+    min-width: 280px;
+    padding-top: 2rem;
+  }
+}
+
+
+@media (width >= 80em) {
+  #profile {
+    display: flex; 
+    padding-left: 0;
+
+    & .div-1 {
+      display: flex;
+      gap: 2rem;
+
+      margin-right: auto;
+
+      & > div:nth-child(2){
+        max-width: 384px;
+      }
+
+      & .div-2 {
+        padding-top: 0;
+      }
+  }
+}
+}

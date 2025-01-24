@@ -1,11 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Travelgram</title>
+  <link rel="stylesheet" href="styles/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div>oi</div>
+<header class="container py-base flex items-center">
+  <div>
+    <img src="assets/Logo.svg" alt="">
+  </div>
+
+  <nav class="flex gap-1 items-center">
+    <a href=""><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M21.5306 20.4694L16.8365 15.7763C18.1971 14.1429 18.8755 12.0478 18.7307 9.92694C18.5859 7.80607 17.629 5.82268 16.0591 4.38935C14.4892 2.95602 12.4271 2.18311 10.3019 2.23141C8.17663 2.27971 6.15181 3.1455 4.64864 4.64867C3.14547 6.15184 2.27968 8.17666 2.23138 10.3019C2.18308 12.4272 2.95599 14.4892 4.38932 16.0591C5.82265 17.629 7.80604 18.5859 9.92691 18.7307C12.0478 18.8755 14.1428 18.1971 15.7762 16.8366L20.4693 21.5306C20.539 21.6003 20.6218 21.6556 20.7128 21.6933C20.8038 21.731 20.9014 21.7504 21 21.7504C21.0985 21.7504 21.1961 21.731 21.2871 21.6933C21.3782 21.6556 21.4609 21.6003 21.5306 21.5306C21.6003 21.4609 21.6556 21.3782 21.6933 21.2872C21.731 21.1961 21.7504 21.0985 21.7504 21C21.7504 20.9015 21.731 20.8039 21.6933 20.7128C21.6556 20.6218 21.6003 20.5391 21.5306 20.4694ZM3.74997 10.5C3.74997 9.16498 4.14585 7.85993 4.88755 6.7499C5.62925 5.63987 6.68346 4.77471 7.91686 4.26381C9.15026 3.75292 10.5075 3.61925 11.8168 3.8797C13.1262 4.14015 14.3289 4.78303 15.2729 5.72703C16.2169 6.67103 16.8598 7.87377 17.1203 9.18314C17.3807 10.4925 17.2471 11.8497 16.7362 13.0831C16.2253 14.3165 15.3601 15.3707 14.2501 16.1124C13.14 16.8541 11.835 17.25 10.5 17.25C8.71037 17.248 6.99463 16.5362 5.72919 15.2708C4.46375 14.0053 3.75196 12.2896 3.74997 10.5Z" fill="#6C6C6C"/>
+      </svg>
+      </a>
+    <a href="#" class="desktop-only">Explorar</a>
+    <a href="#" class="desktop-only">Minhas Viagens</a>
+    <img id="profile-header" src="assets/profile.png" alt="">
+  </nav>
+
+</header>
+
+  <div id="profile" class=" grid container items-center py-base px-base">
+     <div class="div-1 grid gap-1 items-center">
+      <img class="profile" src="assets/profile.png" alt="">
+      <div>
+        <h1>Isabela Torres</h1>
+        <p>Amante de viagens, cultura e gastronomia.  🌍✈️ <br class="desktop-only">
+          Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes do nosso planeta a partir da movimentada cidade de São Paulo. 🏙️📸</p>
+      </div>
+     </div>
+
+     <div class="div-2 grid gap-1">
+
+      <div class="flex gap-.5 items-center">
+        <img src="assets/icons/MapPin.svg" alt="">
+        <p>São Paulo, Brazil</p>
+      </div>
+
+      <div class="flex gap-.5 items-center">
+        <img src="assets/icons/AirplaneTilt.svg" alt="">
+        <p>37 países</p>
+      </div>
+
+      <div class="flex gap-.5 items-center">
+        <img src="assets/icons/Image.svg" alt="">
+        <p>240 fotos</p>
+      </div>
+
+     </div>
+  </div>
+
+  <div id="gallery" class="container grid gap-1">
+    <div class="gallery-img">
+      <img src="assets/images/Image 01.png" alt="">
+    </div>
+    <div class="gallery-img">
+      <img src="assets/images/Image 02.png" alt="">
+    </div>
+    <div class="gallery-img">
+      <img src="assets/images/Image 03.png" alt="">
+    </div>
+    <div class="gallery-img">
+      <img src="assets/images/Image 04.png" alt="">
+    </div>
+    <div class="gallery-img">
+      <img src="assets/images/Image 05.png" alt="">
+    </div>
+    <div class="gallery-img">
+      <img src="assets/images/Image 06.png" alt="">
+    </div>
+    <div class="gallery-img">
+      <img src="assets/images/Image 07.png" alt="">
+    </div>
+    <div class="gallery-img">
+      <img src="assets/images/Image 08.png" alt="">
+    </div>
+    <div class="gallery-img">
+      <img src="assets/images/Image 09.png" alt="">
+    </div>
+    <div class="gallery-img">
+      <img src="assets/images/Image 10.png" alt="">
+    </div>
+    <div class="gallery-img">
+      <img src="assets/images/Image 11.png" alt="">
+    </div>
+    <div class="gallery-img">
+      <img src="assets/images/Image 12.png" alt="">
+    </div>
+    
+
+  </div>
+
 </body>
 </html>

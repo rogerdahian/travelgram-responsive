@@ -1,5 +1,59 @@
+.py-base {
+  padding-block: var(--py-base) ;
+}
+
+.py-lg {
+  padding-block: var(--py-lg);
+}
+
+.px-base {
+  padding-inline: var(--px-base);
+}
+
+.px-lg {
+  padding-inline: var(--px-lg);
+}
+
+img {
+  display: block;
+  object-fit: cover;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
 .desktop-only {
   display: none;
+}
+
+h1 {
+  font: var(--h1);
+  color: var(--text-color-primary);
+}
+
+p{
+  font: var(--p-md);
+  color: var(--text-color-secondary);
+}
+.flex{
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-\.5{
+  gap: .5rem;
 }
 
 .container {
@@ -13,6 +67,7 @@
   .container {
     --max-width: 80rem;
   }
+
 
   .desktop-only {
     display: initial;
