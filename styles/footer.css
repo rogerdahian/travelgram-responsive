@@ -1,0 +1,31 @@
+footer {
+
+  flex-direction: column;
+  margin-bottom: 1rem;
+  & div:nth-child(1) {
+    text-align: center;
+  }
+  
+  & div:nth-child(2) {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  & a{
+    font: var(--p-fotter);
+    color: var(--text-color-secondary);
+  }
+
+  } 
+ @media (width >= 50em) {
+    footer{
+      flex-direction: row;
+      padding-block: 1.5rem;
+      
+
+      & div:nth-child(1){
+        margin-right: auto;
+      }
+    }
+
+    }

@@ -20,7 +20,7 @@
   --h1: bold 1.5rem/1.25 var(--font-family);
   --p-md: 400 .875rem/1.7 var(--font-family);
   --p-sm: 400 .75rem/1.7 var(--font-family); 
-
+  --p-fotter: 400 .875rem/1.5 var(--font-family);
 
   --py-base: 1rem;
   --py-lg: 2rem;
