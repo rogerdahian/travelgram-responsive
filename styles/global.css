@@ -26,15 +26,25 @@
   --py-lg: 2rem;
   --px-base: 1rem;
   --px-lg: 2rem;
+
+  --max-width: 360px;
 }
 
 body {
   font-family: var(--font-family);
-  background-color: var(--surface-color);
+  background-color: var(--background-color);
+ 
+  margin: auto;
+
+
+  & .bg{
+    background-color: var(--surface-color);
+  }
 }
 
-@media (width >= 80em) {
+@media (width >= 50em) {
  :root{
+ 
   --px-base: 2rem;
 }
 }

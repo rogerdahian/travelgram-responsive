@@ -21,7 +21,7 @@
 }
 
 
-@media (width >= 80em) {
+@media (width >= 50em) {
   #profile {
     display: flex; 
     padding-left: 0;
@@ -42,3 +42,4 @@
   }
 }
 }
+
